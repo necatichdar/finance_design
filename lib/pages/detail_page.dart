@@ -11,6 +11,7 @@ class _DetailPageState extends State<DetailPage> {
   Color cember = Color(0xFFD6E6FD);
 
   int selectedIndex = 0;
+
   var kategori_list = ["All", "Income", "Expense"];
 
   @override
@@ -20,7 +21,8 @@ class _DetailPageState extends State<DetailPage> {
       child: Scaffold(
         backgroundColor: backgroundColor,
         body: Padding(
-          padding: const EdgeInsets.only(left:20.0,right: 20,top: 20,bottom: 10),
+          padding:
+              const EdgeInsets.only(left: 20.0, right: 20, top: 20, bottom: 10),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             mainAxisAlignment: MainAxisAlignment.spaceAround,
@@ -188,7 +190,7 @@ class _DetailPageState extends State<DetailPage> {
       children: [
         Center(
           child: Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 8.0,vertical: 5),
+            padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 5),
             child: Container(
               height: 300,
               width: 300,
