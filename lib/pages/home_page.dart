@@ -100,6 +100,7 @@ class _HomePageState extends State<HomePage> {
             CircleAvatar(
               radius: 42,
               backgroundColor: Colors.cyanAccent,
+              backgroundImage: AssetImage('assets/images/profile.jpg'),
             ),
             SizedBox(
               height: 10,
